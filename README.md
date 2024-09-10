@@ -8,9 +8,12 @@ ModelDef[[Model Definition]]
 Model[(Model)]
 Obs[(Observations)]
 Cost[(Chi2, or other cost function)]
+probability[log_prob]
+aprior[a prior]
 
 ParameterSet --> ModelDef --> Model
 
 Model & Obs--> Cost
-Cost -.Find Next p.-> ParameterSet
+aprior & Cost --> probability
+probability -.Find Next p.-> ParameterSet
 ```
