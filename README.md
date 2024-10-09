@@ -39,6 +39,4 @@ subgraph problem [Problem setting]
   aprior & Cost --> probability
   end
 ```
-!probability -.Find Next p.-> ParameterSet
-#probability ->
-#
+
